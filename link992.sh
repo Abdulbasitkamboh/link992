@@ -7,13 +7,14 @@ banner() {
 
 clear
 
-echo -e "\033[31m __          _ _     _     \e[0m ______ _     _          ";
-echo -e "\033[31m \ \        / (_)   | |    \e[0m|  ____(_)   | |         ";
-echo -e "\033[31m  \ \  /\  / / _ ___| | __ \e[0m| |__   _ ___| |__       ";
-echo -e "\033[31m   \ \/  \/ / | / __| '_  |\e[0m|  __| | / __| '_ \      ";
-echo -e "\033[31m    \  /\  /  | \__ \ | | |\e[0m| |    | \__ \ | | |     ";
-echo -e "\033[31m     \/  \/   |_|___/_| |_|\e[0m|_|    |_|___/_| |_| v2.0";
+echo -e "\033[31m  __  __   ____      \e[0m  ____       _      ____    ___   _____   ";                  
+echo -e "\033[31m |  \/  | |  _ \     \e[0m | __ )     / \    / ___|  |_ _| |_   _|  ";
+echo -e "\033[31m | |\/| | | |_) |    \e[0m |  _ \    / _ \   \___ \   | |    | |    ";
+echo -e "\033[31m | |  | | |  _ <   _ \e[0m | |_) |  / ___ \   ___) |  | |    | |    ";
+echo -e "\033[31m |_|  |_| |_| \_\ (_)\e[0m |____/  /_/   \_\ |____/  |___|   |_|v3.3.0";
 
+
+echo -e "\033[31m
 printf "\e[1;77m Fb :- abdul.basit.muhammad.aliyan \e[0m \n"
 printf "\e[1;77m v2.0 Coded By github.com/Abdulbasitkamboh \e[0m \n"
 
@@ -213,7 +214,7 @@ sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 start() {
 
 default_choose_sub="Y"
-default_subdomain="wishfish$RANDOM"
+default_subdomain="link992$RANDOM"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
 read choose_sub
